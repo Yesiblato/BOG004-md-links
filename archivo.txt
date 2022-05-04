@@ -1,0 +1,4 @@
+HOla mundo
+123345
+qwert Yyyy
+final de datos del archivo
