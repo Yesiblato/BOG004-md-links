@@ -51,7 +51,7 @@ const readFiles = (route) => {
 };
 
 //
-const obtenerLinks = (arrayMD) => {
+const getLinks = (arrayMD) => {
   return new Promise((resolve, reject) => {
     let arr = []
     arrayMD.forEach((md) => {
@@ -88,6 +88,7 @@ const getObjects = (file) => {
           console.log('no hay links');
         }
       })
+      .catch((error) => console.log(error));
   })
 }
 
@@ -154,7 +155,7 @@ const validateHttp = (arr) => {
 const mdlinks = (path, options) => {
   return new Promise((resolve, reject) => {
     identify(pathAbsolute(path))
-      .then((response) => obtenerLinks(response))
+      .then((response) => getLinks(response))
       .then((resp) => {
         if (!options.validate && !options.stats) {
           // console.log(resp);
@@ -174,11 +175,11 @@ const mdlinks = (path, options) => {
           resolve(stats);
         }
       })
-      .catch((error) => reject(error))
+      .catch((error) => reject('La ruta no es valida'))
   })
 }
 
-module.exports = mdlinks;
+module.exports = mdlinks, readFiles;
 
 /*----------------------
 ANIDAMIENTO
