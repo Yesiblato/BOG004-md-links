@@ -1,4 +1,4 @@
-#!/usr/bin/env nodo
+#!/usr/bin/env node
 
 const mdlinks  = require('./index.js');
 

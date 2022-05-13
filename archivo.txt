@@ -1,4 +1,20 @@
-HOla mundo
-123345
-qwert Yyyy
-final de datos del archivo
+/*----------------------
+ANIDAMIENTO
+prom(param)
+  .then(respuesta => otraProm(respuesta)
+    .then(segRespuesta => terPromesa(segRespuesta)
+      .then(final => console.log(final))
+      .catch(err)
+      )
+    .catch(err)
+    )
+  .catch(err)
+ENCADENAMIENTO
+prom(param)
+  .then(respuesta => return otraProm(respuesta))
+  .then(segRespuesta => return terPromesa(segRespuesta))
+  .then(final => console.log(final))
+  .catch(err)
+  -------------------------*/
+
+  

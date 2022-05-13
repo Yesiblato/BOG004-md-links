@@ -2,9 +2,8 @@ const { error } = require("console");
 const fs = require("fs");
 const { resolve } = require("path");
 const path = require("path");
-const { openStdin } = require("process");
+// const { openStdin } = require("process");
 const process = require("process");
-// const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 const { default: fetch } = require("node-fetch");
 
 
@@ -158,17 +157,14 @@ const mdlinks = (path, options) => {
       .then((response) => getLinks(response))
       .then((resp) => {
         if (!options.validate && !options.stats) {
-          // console.log(resp);
           resolve(resp)
         }
         return validateHttp(resp)
       })
       .then(response => {
         if (options.validate && options.stats) {
-          // console.log(statsBrokens(response));
           resolve(statsBrokens(response));
         } else if (options.validate) {
-          //   console.log('validateHttp --->:', response)
           resolve(response)
         } else if (options.stats) {
           const stats = statsLinks(response);
@@ -181,21 +177,3 @@ const mdlinks = (path, options) => {
 
 module.exports = mdlinks, readFiles;
 
-/*----------------------
-ANIDAMIENTO
-prom(param)
-  .then(respuesta => otraProm(respuesta)
-    .then(segRespuesta => terPromesa(segRespuesta)
-      .then(final => console.log(final))
-      .catch(err)
-      )
-    .catch(err)
-    )
-  .catch(err)
-ENCADENAMIENTO
-prom(param)
-  .then(respuesta => return otraProm(respuesta))
-  .then(segRespuesta => return terPromesa(segRespuesta))
-  .then(final => console.log(final))
-  .catch(err)
-  -------------------------*/
