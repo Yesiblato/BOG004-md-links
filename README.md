@@ -8,23 +8,23 @@
 * [6. Tecnologías utilizadas](#6-tecnologías-utlizadas)
 * [7. Autor](#7-autor)
 ***
-## 1. Preámbulo :ojos_de_corazón:
+## 1. :boom::boom: Preámbulo :boom::boom:
 Markdown es un lenguaje de marcado ligero muy popular entre developers. Es usado en muchísimas plataformas que manejan texto plano (GitHub, foros, blogs, ...), y es muy común encontrar varios archivos en ese formato en cualquier tipo de repositorio (empezando por el tradicional README.md).
 Estos archivos Markdown normalmente contienen links (vínculos/ligas) que muchas veces están rotos o ya no son válidos y eso perjudica mucho el valor de la información que se quiere compartir.
 Dentro de una comunidad de código abierto, nos han propuesto crear una herramienta usando Node.js, que lea y analice archivos en formato Markdown, para verificar los links que contengan y reportar algunas estadísticas.
-## 2. Descripción :ordenador:
+## 2. :computer::computer: Descripción :computer::computer:
 Es una herramienta de línea de comando(CLI) y una librería, que permite extraer los links de un archivo tipo Markdown(md), e identifica cuales están funcionando y cuales están rotos. Adicionalmente esta información se puede entregar al usuario como estadísticas donde se puede ver:
 * Total de links
 * Links únicos
 * Links rotos
-## 3. Diagrama de flujo
+## 3. :art::art: Diagrama de flujo :art::art:
 Para llevar a cabo el proyecto se hizo necesario realizar un diagrama de flujo. El cual se muestra a continuación:
 ![image](https://user-images.githubusercontent.com/92064924/168403623-c7a70135-6e28-419e-93ab-5d1a5fca4d5e.png)
 ![image](https://user-images.githubusercontent.com/92064924/168403649-df5c9c2f-0543-46f4-8d43-e510d9e32f60.png)
 ## 4. Instalación
 Para hacer uso de la librería ejecuta en la terminal el siguiente comando:
 * npm install md-links-daniela1421
-## 5. Guía de uso :nota:
+## 5. :memo::memo: Guía de uso :memo::memo:
 Para utilizar esta librería puedes ejecutar los siguientes comandos:
 1. Si necesitas conocer la ruta de donde proviene los links, su enlace, e información sobre este, solo ingresas la ruta --> mdlinks <path>
 ![image](https://user-images.githubusercontent.com/92064924/168402857-08c61595-16ff-407e-815d-e398fb845f7c.png)
@@ -35,7 +35,7 @@ Para utilizar esta librería puedes ejecutar los siguientes comandos:
 4. Por último, si deseas consultar cuantos links se encuentran rotos, puedes ingresar:
   mdlinks <path> --s --v ó mdlinks <path> --stats --validate
  ![image](https://user-images.githubusercontent.com/92064924/168403361-f7f186d6-dba6-4ee9-b304-c4db39ef04e9.png)
-## 6. Tecnologias utilizadas :martillo_y_llave_inglesa:
+## 6. :satellite::satellite: Tecnologias utilizadas :satellite::satellite:
 * [Node](https://nodejs.org/es/) - Utilizado para ejecutar javascript en consola.
 * [Figma](https://www.figma.com/login) - Utilizado para la creación del diagrama de flujo.
 * [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) - Lenguaje de programación.
