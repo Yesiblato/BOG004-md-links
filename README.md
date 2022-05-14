@@ -19,13 +19,13 @@ Es una herramienta de línea de comando(CLI) y una librería, que permite extrae
 * Links rotos
 ## 3. :art::art: Diagrama de flujo :art::art:
 Para llevar a cabo el proyecto se hizo necesario realizar un diagrama de flujo. El cual se muestra a continuación:
-![image](https://user-images.githubusercontent.com/92064924/168403623-c7a70135-6e28-419e-93ab-5d1a5fca4d5e.png)
-![image](https://user-images.githubusercontent.com/92064924/168403649-df5c9c2f-0543-46f4-8d43-e510d9e32f60.png)
+
 ## 4. :page_with_curl::page_with_curl: Instalación :page_with_curl::page_with_curl:
 Para hacer uso de la librería ejecuta en la terminal el siguiente comando:
 * npm install md-links-daniela1421
 ## 5. :memo::memo: Guía de uso :memo::memo: 
 Para utilizar esta librería puedes ejecutar los siguientes comandos:
+![Diagrama de flujo MD-LINKS](https://user-images.githubusercontent.com/87024446/168409544-3b02f237-0b48-4fbb-9fa4-b2347c5b386b.PNG)
 1. Si necesitas conocer la ruta de donde proviene los links, su enlace, e información sobre este, solo ingresas la ruta --> mdlinks <path>
 ![image](https://user-images.githubusercontent.com/92064924/168402857-08c61595-16ff-407e-815d-e398fb845f7c.png)
  2. Si además de la información anterior necesitas conocer si los enlaces en tu archivo están funcionando o no, ingresas el siguiente comando: mdlinks <path> --v ó mdlinks <path> --validate
