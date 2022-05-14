@@ -186,5 +186,6 @@ const mdlinks = (path, options) => {
       `)))
   })
 }
+
 //Exportando funciones
 module.exports = mdlinks, readFiles;
