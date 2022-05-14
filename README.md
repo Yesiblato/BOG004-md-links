@@ -21,7 +21,7 @@ Es una herramienta de línea de comando(CLI) y una librería, que permite extrae
 Para llevar a cabo el proyecto se hizo necesario realizar un diagrama de flujo. El cual se muestra a continuación:
 ![image](https://user-images.githubusercontent.com/92064924/168403623-c7a70135-6e28-419e-93ab-5d1a5fca4d5e.png)
 ![image](https://user-images.githubusercontent.com/92064924/168403649-df5c9c2f-0543-46f4-8d43-e510d9e32f60.png)
-## 4. Instalación
+## 4. :page_with_curl::page_with_curl: Instalación :page_with_curl::page_with_curl:
 Para hacer uso de la librería ejecuta en la terminal el siguiente comando:
 * npm install md-links-daniela1421
 ## 5. :memo::memo: Guía de uso :memo::memo:
@@ -40,5 +40,5 @@ Para utilizar esta librería puedes ejecutar los siguientes comandos:
 * [Figma](https://www.figma.com/login) - Utilizado para la creación del diagrama de flujo.
 * [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) - Lenguaje de programación.
 * [GitHub](https://github.com/)- Usado guardar el repositorio del proyecto.
-## 7. Autor :plumín_negro:
+## 7. :woman::woman: Autor :woman::woman:
 * **Yesica Blanco** - [Yejoblato](https://github.com/Yesiblato)
