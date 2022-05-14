@@ -24,7 +24,7 @@ Para llevar a cabo el proyecto se hizo necesario realizar un diagrama de flujo. 
 ## 4. :page_with_curl::page_with_curl: Instalación :page_with_curl::page_with_curl:
 Para hacer uso de la librería ejecuta en la terminal el siguiente comando:
 * npm install md-links-daniela1421
-## 5. :memo::memo: Guía de uso :memo::memo:
+## 5. :memo::memo: Guía de uso :memo::memo: 
 Para utilizar esta librería puedes ejecutar los siguientes comandos:
 1. Si necesitas conocer la ruta de donde proviene los links, su enlace, e información sobre este, solo ingresas la ruta --> mdlinks <path>
 ![image](https://user-images.githubusercontent.com/92064924/168402857-08c61595-16ff-407e-815d-e398fb845f7c.png)
