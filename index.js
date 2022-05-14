@@ -134,6 +134,7 @@ const statsBrokens = (res) => {
     broken: brokens
   }
 }
+
 // Validacion http
 const validateHttp = (arr) => {
   const arrValidate = arr.map((link) => {
